@@ -1,0 +1,18 @@
+Dependencies for Project '_8_12_uart_initial_Interrupt', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\main.c)(0x6370BEF7)(--gnu -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\system\regdef -I ..\system\sys -I ..\system\typedef -I ..\hardware\uart -I ..\user -I ..\system\cortex_m3-ID:\keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="537" -DSTM32F10X_HD-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\system\sys\sys.h)(0x636CC4BF)
+I (..\system\typedef\typedef.h)(0x6358F9FD)
+I (..\hardware\uart\uart.h)(0x63709B1A)
+F (.\startup_stm32f103xe.s)(0x634476C0)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 537" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f103xe.lst --xref -o ..\output\startup_stm32f103xe.o --depend ..\output\startup_stm32f103xe.d)
+F (..\system\sys\sys.c)(0x6358F34A)(--gnu -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\system\regdef -I ..\system\sys -I ..\system\typedef -I ..\hardware\uart -I ..\user -I ..\system\cortex_m3-ID:\keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="537" -DSTM32F10X_HD-o ..\output\sys.o --omf_browse ..\output\sys.crf --depend ..\output\sys.d)
+I (..\system\sys\sys.h)(0x636CC4BF)
+I (..\system\typedef\typedef.h)(0x6358F9FD)
+I (..\system\regdef\stm32f103zet6.h)(0x6358F62D)
+I (..\system\cortex_m3\cortex_m3.h)(0x6350060C)
+F (..\hardware\uart\uart.c)(0x6370BC9D)(--gnu -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\system\regdef -I ..\system\sys -I ..\system\typedef -I ..\hardware\uart -I ..\user -I ..\system\cortex_m3-ID:\keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="537" -DSTM32F10X_HD-o ..\output\uart.o --omf_browse ..\output\uart.crf --depend ..\output\uart.d)
+I (..\hardware\uart\uart.h)(0x63709B1A)
+I (..\system\typedef\typedef.h)(0x6358F9FD)
+I (..\system\sys\sys.h)(0x636CC4BF)
+I (..\system\regdef\stm32f103zet6.h)(0x6358F62D)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)

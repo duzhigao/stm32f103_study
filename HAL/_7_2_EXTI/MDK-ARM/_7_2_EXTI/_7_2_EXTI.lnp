@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"_7_2_exti\startup_stm32f103xe.o"
+"_7_2_exti\main.o"
+"_7_2_exti\gpio.o"
+"_7_2_exti\stm32f1xx_it.o"
+"_7_2_exti\stm32f1xx_hal_msp.o"
+"_7_2_exti\stm32f1xx_hal_gpio_ex.o"
+"_7_2_exti\stm32f1xx_hal_tim.o"
+"_7_2_exti\stm32f1xx_hal_tim_ex.o"
+"_7_2_exti\stm32f1xx_hal.o"
+"_7_2_exti\stm32f1xx_hal_rcc.o"
+"_7_2_exti\stm32f1xx_hal_rcc_ex.o"
+"_7_2_exti\stm32f1xx_hal_gpio.o"
+"_7_2_exti\stm32f1xx_hal_dma.o"
+"_7_2_exti\stm32f1xx_hal_cortex.o"
+"_7_2_exti\stm32f1xx_hal_pwr.o"
+"_7_2_exti\stm32f1xx_hal_flash.o"
+"_7_2_exti\stm32f1xx_hal_flash_ex.o"
+"_7_2_exti\stm32f1xx_hal_exti.o"
+"_7_2_exti\system_stm32f1xx.o"
+"_7_2_exti\exti.o"
+--library_type=microlib --strict --scatter "_7_2_EXTI\_7_2_EXTI.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "_7_2_EXTI.map" -o _7_2_EXTI\_7_2_EXTI.axf

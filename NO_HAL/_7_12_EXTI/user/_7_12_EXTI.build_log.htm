@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>�Vision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ��Vision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zhigao du, HP Inc., LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  D:\keil\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\dzg\Desktop\stm32_project\NO_HAL\_7_12_EXTI\user\_7_12_EXTI.uvprojx
+Project File Date:  10/19/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'D:\keil\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+../hardware/exti/exti.c(2): warning: In file included from...
+../hardware/key\key.h(5): warning: In file included from...
+../system/regdef\stm32f103zet6.h(29): warning: // comments are not allowed in this language [-Wcomment]
+#define A(address,n) (((address&0xF0000000)+0x2000000)+((address&0xFFFFF)<<5)+(n<<2))  //<CB><E3><B3><F6><B6><D4>Ӧλ<B6>α<F0><C3><FB><C7><F8><B4><BA><B4>洢<B5><A5><U+052A><B5>ĵ<D8>ַ
+                                                                                       ^
+../system/regdef\stm32f103zet6.h(45): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+../hardware/exti/exti.c(2): warning: In file included from...
+../hardware/key\key.h(14): warning: // comments are not allowed in this language [-Wcomment]
+//key1-PA0
+^
+../hardware/exti/exti.c(3): warning: In file included from...
+../system/sys\sys.h(9): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+../hardware/exti/exti.c(4): warning: In file included from...
+../system/cortex_m3\cortex_m3.h(5): warning: // comments are not allowed in this language [-Wcomment]
+#define ISER ((vu32 *)0xE000E100)  //Interrupt Set Enable Register
+                                   ^
+../system/cortex_m3\cortex_m3.h(11): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+../hardware/exti/exti.c(5): warning: In file included from...
+../system/delay\delay.h(5): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+../hardware/exti/exti.c(6): warning: In file included from...
+../hardware/led\led.h(15): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+../hardware/exti/exti.c(10): warning: // comments are not allowed in this language [-Wcomment]
+        KEY_Init();//ʹ<C4><DC>KEY1<B5><C4>PAģ<BF><E9><B5><C4>ʱ<D6>Ӳ<A2><BD><AB>PA0<C9><E8><D6><C3>Ϊ<D0><FC><BF><D5><CA><E4><C8><EB>
+                   ^
+../hardware/exti/exti.c(31): warning: no newline at end of file [-Wnewline-eof]
+}
+ ^
+10 warnings generated.
+compiling exti.c...
+linking...
+Program Size: Code=1948 RO-data=320 RW-data=0 ZI-data=1640  
+FromELF: creating hex file...
+".\_7_12_EXTI.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.0.pack
+                Keil.STM32F1xx_DFP.2.4.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:/keil/Keil/STM32F1xx_DFP/2.4.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

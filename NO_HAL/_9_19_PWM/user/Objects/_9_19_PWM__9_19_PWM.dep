@@ -1,0 +1,16 @@
+Dependencies for Project '_9_19_PWM', Target '_9_19_PWM': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\main.c)(0x6367ECCC)(--gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\hardware\led -I ..\system\cortex_m3 -I ..\system\regdef -I ..\system\sys -I ..\system\typedef -I ..\hardware\tim-ID:\keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="537" -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\system\sys\sys.h)(0x6358F464)
+I (..\system\typedef\typedef.h)(0x6358F9FD)
+I (..\hardware\tim\tim.h)(0x6367ECD9)
+F (.\startup_stm32f103xe.s)(0x634476C0)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 537" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f103xe.lst --xref -o .\objects\startup_stm32f103xe.o --depend .\objects\startup_stm32f103xe.d)
+F (..\hardware\tim\tim.c)(0x6367F01E)(--gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\hardware\led -I ..\system\cortex_m3 -I ..\system\regdef -I ..\system\sys -I ..\system\typedef -I ..\hardware\tim-ID:\keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="537" -DSTM32F10X_HD-o .\objects\tim.o --omf_browse .\objects\tim.crf --depend .\objects\tim.d)
+I (..\hardware\tim\tim.h)(0x6367ECD9)
+I (..\system\typedef\typedef.h)(0x6358F9FD)
+I (..\system\regdef\stm32f103zet6.h)(0x635FF6CE)
+F (..\system\sys\sys.c)(0x6358F34A)(--gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\hardware\led -I ..\system\cortex_m3 -I ..\system\regdef -I ..\system\sys -I ..\system\typedef -I ..\hardware\tim-ID:\keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="537" -DSTM32F10X_HD-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (..\system\sys\sys.h)(0x6358F464)
+I (..\system\typedef\typedef.h)(0x6358F9FD)
+I (..\system\regdef\stm32f103zet6.h)(0x635FF6CE)
+I (..\system\cortex_m3\cortex_m3.h)(0x6350060C)

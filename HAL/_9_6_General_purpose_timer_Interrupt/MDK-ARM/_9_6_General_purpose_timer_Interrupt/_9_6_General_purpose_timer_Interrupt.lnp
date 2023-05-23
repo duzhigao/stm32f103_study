@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"_9_6_general_purpose_timer_interrupt\startup_stm32f103xe.o"
+"_9_6_general_purpose_timer_interrupt\main.o"
+"_9_6_general_purpose_timer_interrupt\gpio.o"
+"_9_6_general_purpose_timer_interrupt\tim.o"
+"_9_6_general_purpose_timer_interrupt\stm32f1xx_it.o"
+"_9_6_general_purpose_timer_interrupt\stm32f1xx_hal_msp.o"
+"_9_6_general_purpose_timer_interrupt\stm32f1xx_hal_gpio_ex.o"
+"_9_6_general_purpose_timer_interrupt\stm32f1xx_hal_tim.o"
+"_9_6_general_purpose_timer_interrupt\stm32f1xx_hal_tim_ex.o"
+"_9_6_general_purpose_timer_interrupt\stm32f1xx_hal.o"
+"_9_6_general_purpose_timer_interrupt\stm32f1xx_hal_rcc.o"
+"_9_6_general_purpose_timer_interrupt\stm32f1xx_hal_rcc_ex.o"
+"_9_6_general_purpose_timer_interrupt\stm32f1xx_hal_gpio.o"
+"_9_6_general_purpose_timer_interrupt\stm32f1xx_hal_dma.o"
+"_9_6_general_purpose_timer_interrupt\stm32f1xx_hal_cortex.o"
+"_9_6_general_purpose_timer_interrupt\stm32f1xx_hal_pwr.o"
+"_9_6_general_purpose_timer_interrupt\stm32f1xx_hal_flash.o"
+"_9_6_general_purpose_timer_interrupt\stm32f1xx_hal_flash_ex.o"
+"_9_6_general_purpose_timer_interrupt\stm32f1xx_hal_exti.o"
+"_9_6_general_purpose_timer_interrupt\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "_9_6_General_purpose_timer_Interrupt\_9_6_General_purpose_timer_Interrupt.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "_9_6_General_purpose_timer_Interrupt.map" -o _9_6_General_purpose_timer_Interrupt\_9_6_General_purpose_timer_Interrupt.axf

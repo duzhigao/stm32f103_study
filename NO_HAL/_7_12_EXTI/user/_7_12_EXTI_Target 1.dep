@@ -1,0 +1,40 @@
+Dependencies for Project '_7_12_EXTI', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\main.c)(0x6350250F)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../hardware/key -I ../hardware/led -I ../system/delay -I ../system/regdef -I ../system/sys -I ../system/typedef -I ../hardware/exti -I ../system/cortex_m3-ID:/keil/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="537" -DSTM32F10X_HD-o ./main.o -MD)
+I (..\system\sys\sys.h)(0x634FF799)
+I (..\system\typedef\typedef.h)(0x634FFB42)
+I (..\hardware\led\led.h)(0x634D23F6)
+I (..\system\regdef\stm32f103zet6.h)(0x634FF2C0)
+I (..\hardware\key\key.h)(0x634D2068)
+I (..\hardware\exti\exti.h)(0x63500B4B)
+I (..\system\delay\delay.h)(0x634C1AC3)
+F (.\startup_stm32f103xe.s)(0x634476C0)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-ID:/keil/Keil/STM32F1xx_DFP/2.4.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"STM32F10X_HD SETA 1"-o ./startup_stm32f103xe.o)
+F (..\system\sys\sys.c)(0x635E4AFB)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../hardware/key -I ../hardware/led -I ../system/delay -I ../system/regdef -I ../system/sys -I ../system/typedef -I ../hardware/exti -I ../system/cortex_m3-ID:/keil/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="537" -DSTM32F10X_HD-o ./sys.o -MD)
+I (..\system\sys\sys.h)(0x634FF799)
+I (..\system\typedef\typedef.h)(0x634FFB42)
+I (..\system\regdef\stm32f103zet6.h)(0x634FF2C0)
+I (..\system\cortex_m3\cortex_m3.h)(0x6350060C)
+F (..\system\delay\delay.c)(0x63502050)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../hardware/key -I ../hardware/led -I ../system/delay -I ../system/regdef -I ../system/sys -I ../system/typedef -I ../hardware/exti -I ../system/cortex_m3-ID:/keil/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="537" -DSTM32F10X_HD-o ./delay.o -MD)
+I (..\system\delay\delay.h)(0x634C1AC3)
+I (..\system\typedef\typedef.h)(0x634FFB42)
+I (..\system\sys\sys.h)(0x634FF799)
+F (..\hardware\key\key.c)(0x634D3570)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../hardware/key -I ../hardware/led -I ../system/delay -I ../system/regdef -I ../system/sys -I ../system/typedef -I ../hardware/exti -I ../system/cortex_m3-ID:/keil/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="537" -DSTM32F10X_HD-o ./key.o -MD)
+I (..\hardware\key\key.h)(0x634D2068)
+I (..\system\typedef\typedef.h)(0x634FFB42)
+I (..\system\regdef\stm32f103zet6.h)(0x634FF2C0)
+I (..\system\delay\delay.h)(0x634C1AC3)
+I (..\system\sys\sys.h)(0x634FF799)
+F (..\hardware\led\led.c)(0x634D2389)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../hardware/key -I ../hardware/led -I ../system/delay -I ../system/regdef -I ../system/sys -I ../system/typedef -I ../hardware/exti -I ../system/cortex_m3-ID:/keil/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="537" -DSTM32F10X_HD-o ./led.o -MD)
+I (..\hardware\led\led.h)(0x634D23F6)
+I (..\system\regdef\stm32f103zet6.h)(0x634FF2C0)
+I (..\system\typedef\typedef.h)(0x634FFB42)
+I (..\system\sys\sys.h)(0x634FF799)
+F (..\hardware\exti\exti.c)(0x6394999E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../hardware/key -I ../hardware/led -I ../system/delay -I ../system/regdef -I ../system/sys -I ../system/typedef -I ../hardware/exti -I ../system/cortex_m3-ID:/keil/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="537" -DSTM32F10X_HD-o ./exti.o -MD)
+I (..\hardware\exti\exti.h)(0x63500B4B)
+I (..\hardware\key\key.h)(0x634D2068)
+I (..\system\typedef\typedef.h)(0x634FFB42)
+I (..\system\regdef\stm32f103zet6.h)(0x634FF2C0)
+I (..\system\sys\sys.h)(0x634FF799)
+I (..\system\cortex_m3\cortex_m3.h)(0x6350060C)
+I (..\system\delay\delay.h)(0x634C1AC3)
+I (..\hardware\led\led.h)(0x634D23F6)
